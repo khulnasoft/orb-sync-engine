@@ -3,8 +3,8 @@
 Continuously synchronizes an [Orb](https://www.withorb.com/) account to a Postgres database.
 
 <p align="center">
-<img src="https://github.com/khulnasoft/orb-sync-engine/blob/main/docs/orb-sync-engine-overview--light.svg?raw=true#gh-light-mode-only">
-<img src="https://github.com/khulnasoft/orb-sync-engine/blob/main/docs/orb-sync-engine-overview.svg?raw=true#gh-dark-mode-only">
+<img src="https://github.com/khulnasoft/orb-sync-engine/blob/master/docs/orb-sync-engine-overview--light.svg?raw=true#gh-light-mode-only">
+<img src="https://github.com/khulnasoft/orb-sync-engine/blob/master/docs/orb-sync-engine-overview.svg?raw=true#gh-dark-mode-only">
 </p>
 
 ## Motivation
