@@ -1,5 +1,12 @@
 # Orb Sync Engine
 
+Continuously synchronizes an [Orb](https://www.withorb.com/) account to a Postgres database.
+
+<p align="center">
+<img src="https://github.com/khulnasoft/orb-sync-engine/blob/main/docs/orb-sync-engine-overview--light.svg?raw=true#gh-light-mode-only">
+<img src="https://github.com/khulnasoft/orb-sync-engine/blob/main/docs/orb-sync-engine-overview.svg?raw=true#gh-dark-mode-only">
+</p>
+
 ## Motivation
 
 Sometimes you want to analyze your billing data using SQL. Even more importantly, you want to join your billing data to your product/business data.
@@ -67,3 +74,4 @@ cd apps/node-fastify
 docker build -t orb-sync-engine .
 # Ensure env vars are set
 docker run -p 8080:8080 orb-sync-engine
+```
