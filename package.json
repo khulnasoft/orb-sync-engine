@@ -1,0 +1,42 @@
+{
+  "name": "orb-sync-engine",
+  "version": "0.0.0",
+  "description": "Sync data from Orb to Postgres.",
+  "private": true,
+  "scripts": {
+    "dev:node-fastify": "turbo run dev --filter=orb-sync-node-fastify",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "lint:check": "turbo run lint:check",
+    "format": "turbo run format",
+    "format:check": "turbo run format:check",
+    "typecheck": "turbo run typecheck"
+  },
+  "author": "KhulnaSoft",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^4.0.0-alpha.9",
+    "turbo": "^2.1.1",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/orb-sync-engine.git"
+  },
+  "keywords": [
+    "postgres",
+    "orb",
+    "billing",
+    "khulnasoft"
+  ],
+  "packageManager": "npm@10.7.0"
+}
