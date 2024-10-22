@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["ES2022", "DOM"],
+    "resolveJsonModule": true,
+    "useUnknownInCatchVariables": false,
+    "module": "CommonJS",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist", ".turbo"]
+}
